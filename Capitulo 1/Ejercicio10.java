@@ -9,13 +9,16 @@ public class Ejercicio10
 {
 	public static void main( String args[])
 	{
-		final double ancho = 4.5;
-		final double alto = 7.9;
+		final double kms = 45;
+		final double minutos = 45;
+		final double segundos = 30;
 		
-		double area = ancho * alto;
+		double millas = kms / 1.6;
+		double horas = minutos/60 + segundos/3600;
+		double velocidad = millas / horas;
 
-		System.out.println("Ancho: " + ancho);
-		System.out.println("Alto: " + alto);
-		System.out.println("Area: " + area);
+		System.out.println("Millas: " + millas);
+		System.out.println("Horas: " + horas);
+		System.out.println("Velocidad: " + velocidad);
 	}
 }
