@@ -1,2 +1,6 @@
 **/*.swp
 **/*.class
+**/*.js
+**/*.html
+**/*.css
+**/package-list
