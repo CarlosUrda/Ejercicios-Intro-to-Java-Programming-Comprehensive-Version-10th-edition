@@ -10,9 +10,9 @@ import java.util.*;
  */
 public class Ejercicio2_13
 {
-	public static void main( String args[])
-	{
-	    Scanner entrada = new Scanner( System.in).useLocale( Locale.ENGLISH);
+    public static void main( String args[])
+    {
+        Scanner entrada = new Scanner( System.in).useLocale( Locale.ENGLISH);
 
         System.out.print( "Introduce la cantidad a ingresar cada mes: ");
         final double ingresoMensual = entrada.nextDouble();
@@ -32,5 +32,5 @@ public class Ejercicio2_13
         }
 
         System.out.println( "Cuenta bancaria: " + cuenta);
-	}
+    }
 }

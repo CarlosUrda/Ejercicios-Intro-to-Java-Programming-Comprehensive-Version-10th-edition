@@ -9,10 +9,10 @@ import java.util.*;
  */
 public class Ejercicio2_18
 {
-	public static void main( String args[])
-	{
+    public static void main( String args[])
+    {
         Locale.setDefault( Locale.ENGLISH);
-	    Scanner entrada = new Scanner( System.in);
+        Scanner entrada = new Scanner( System.in);
 
         System.out.printf( "a\tb\tpow(a,b)\n");
         for (int i = 1; i < 7; i++)
@@ -22,5 +22,5 @@ public class Ejercicio2_18
             int potencia = (int)Math.pow( a, b);
             System.out.printf( "%d\t%d\t%d\n", a, b, potencia);
         }
-	}
+    }
 }

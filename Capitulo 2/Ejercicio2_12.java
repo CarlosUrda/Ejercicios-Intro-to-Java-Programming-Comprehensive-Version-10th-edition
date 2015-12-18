@@ -10,9 +10,9 @@ import java.util.*;
  */
 public class Ejercicio2_12
 {
-	public static void main( String args[])
-	{
-	    Scanner entrada = new Scanner( System.in).useLocale( Locale.ENGLISH);
+    public static void main( String args[])
+    {
+        Scanner entrada = new Scanner( System.in).useLocale( Locale.ENGLISH);
 
         System.out.print( "Introduce la velocidad: ");
         double velocidad = entrada.nextDouble();
@@ -22,5 +22,5 @@ public class Ejercicio2_12
         double distancia = Math.pow( velocidad, 2) / (2*aceleracion);
 
         System.out.println( "La distancia necesaria es: " + distancia);
-	}
+    }
 }

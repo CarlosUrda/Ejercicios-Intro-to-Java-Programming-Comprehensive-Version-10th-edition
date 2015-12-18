@@ -8,10 +8,10 @@ import java.util.*;
  */
 public class Ejercicio2_15
 {
-	public static void main( String args[])
-	{
+    public static void main( String args[])
+    {
         Locale.setDefault( Locale.ENGLISH);
-	    Scanner entrada = new Scanner( System.in);
+        Scanner entrada = new Scanner( System.in);
 
         System.out.print( "Introduce las coordenadas x e y del punto 1: ");
         final double x1 = entrada.nextDouble();
@@ -24,5 +24,5 @@ public class Ejercicio2_15
         final double distancia = Math.sqrt( Math.pow( x2-x1, 2) + 
                                             Math.pow( y2-y1, 2));
         System.out.printf( "Distancia entre los dos puntos: %.4f\n", distancia);
-	}
+    }
 }

@@ -10,10 +10,10 @@ import java.util.*;
  */
 public class Ejercicio2_23
 {
-	public static void main( String args[])
-	{
+    public static void main( String args[])
+    {
         Locale.setDefault( Locale.ENGLISH);
-	    Scanner entrada = new Scanner( System.in);
+        Scanner entrada = new Scanner( System.in);
 
         System.out.print( "Introduce la distancia a conducir en millas: ");
         final double distancia = entrada.nextDouble();
@@ -26,5 +26,5 @@ public class Ejercicio2_23
 
         final double costeViaje = (distancia / millasGaleon) * precioGaleon;
         System.out.printf( "El coste del viaje es: $%.2f\n", costeViaje);
-	}
+    }
 }

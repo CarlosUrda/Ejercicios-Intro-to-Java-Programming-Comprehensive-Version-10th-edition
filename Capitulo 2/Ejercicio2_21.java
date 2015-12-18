@@ -9,10 +9,10 @@ import java.util.*;
  */
 public class Ejercicio2_21
 {
-	public static void main( String args[])
-	{
+    public static void main( String args[])
+    {
         Locale.setDefault( Locale.ENGLISH);
-	    Scanner entrada = new Scanner( System.in);
+        Scanner entrada = new Scanner( System.in);
 
         System.out.print( "Introduce la inversión inicial: ");
         final double inversionInicial = entrada.nextDouble();
@@ -28,5 +28,5 @@ public class Ejercicio2_21
                                 Math.pow( 1 + razonInteresMensual,
                                           numeroDeAnnos * 12);
         System.out.printf( "El valor acumulado es: %.2f\n", valorAcumulado);
-	}
+    }
 }

@@ -9,10 +9,10 @@ import java.util.*;
  */
 public class Ejercicio2_17
 {
-	public static void main( String args[])
-	{
+    public static void main( String args[])
+    {
         Locale.setDefault( Locale.ENGLISH);
-	    Scanner entrada = new Scanner( System.in);
+        Scanner entrada = new Scanner( System.in);
 
         System.out.print( "Introduce la temperatura ambiente [-58ºF|41ºF]: ");
         final double temperaturaAmbiente = entrada.nextDouble();
@@ -25,5 +25,5 @@ public class Ejercicio2_17
                                         35.75*potencia +
                                         0.4275*temperaturaAmbiente*potencia;
         System.out.printf( "Sensación Térmica: %.5f\n", sensacionTermica);
-	}
+    }
 }
