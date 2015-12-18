@@ -9,10 +9,10 @@ import java.util.*;
  */
 public class Ejercicio2_19
 {
-	public static void main( String args[])
-	{
+    public static void main( String args[])
+    {
         Locale.setDefault( Locale.ENGLISH);
-	    Scanner entrada = new Scanner( System.in);
+        Scanner entrada = new Scanner( System.in);
 
         System.out.print( "Introduce las coordenadas x e y del punto 1: ");
         final double x1 = entrada.nextDouble();
@@ -33,5 +33,5 @@ public class Ejercicio2_19
         double s = (lado1 + lado2 + lado3) / 2;
         double area = Math.sqrt( s * (s-lado1) * (s-lado2) * (s-lado3));
         System.out.printf( "Área del triángulo: %.4f\n", area);
-	}
+    }
 }
