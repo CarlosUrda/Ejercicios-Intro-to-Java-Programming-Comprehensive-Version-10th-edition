@@ -1,5 +1,5 @@
 # Ejercicios del libro «Intro to Java Programming, Comprehensive Version (10th edition)»
-Todos los ejercicios resueltos del libro «Intro to Java Programming, Comprehensive Version (10th edition)».
+Todos los ejercicios resueltos del libro «Intro to Java Programming, Comprehensive Version (10th edition)» del autor Y. Daniel Liang.
 
 Los ejercicios están organizados por capítulos.
 
