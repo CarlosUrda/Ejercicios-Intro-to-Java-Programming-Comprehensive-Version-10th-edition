@@ -9,10 +9,10 @@ import java.util.*;
  */
 public class Ejercicio2_20
 {
-	public static void main( String args[])
-	{
+    public static void main( String args[])
+    {
         Locale.setDefault( Locale.ENGLISH);
-	    Scanner entrada = new Scanner( System.in);
+        Scanner entrada = new Scanner( System.in);
 
         System.out.print( "Introduce el balance: ");
         final double balance = entrada.nextDouble();
@@ -23,5 +23,6 @@ public class Ejercicio2_20
 
         final double interesMensual = balance * razonInteresMensual;
         System.out.printf( "El interés mensual es: %.5f\n", interesMensual);
-	}
+    }
 }
+
