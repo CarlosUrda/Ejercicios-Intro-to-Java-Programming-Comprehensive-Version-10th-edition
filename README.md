@@ -3,4 +3,4 @@ Todos los ejercicios resueltos del libro «Intro to Java Programming, Comprehens
 
 Los ejercicios están organizados por capítulos.
 
-No he usado ningún IDE en la realización de los mismos. Las herramientas usadas son las propias del JDK. La versión de Java usada para la implementación de los ejercicios ha sido Java 8.
+No se ha usado ningún IDE para la implementación de los ejercicios. Las herramientas usadas shan sido las propias del JDK. La versión de Java usada para el desarrollo ha sido Java 8.
