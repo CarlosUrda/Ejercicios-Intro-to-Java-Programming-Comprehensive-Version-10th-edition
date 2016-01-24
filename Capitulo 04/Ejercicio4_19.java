@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.regex.*;
 
 /**
  * Ejercicio 19 del Capítulo 4: Obtener el décimo dígito (suma de verificación)
@@ -15,22 +16,25 @@ public class Ejercicio4_19
         Scanner entrada = new Scanner( System.in);
 
         System.out.print( "Nueve primeros dígitos del código ISBN: ");
-        long isbn = entrada.nextLong();
-
-        byte digito;
-        int sumaDeDigitos = 0;
-        long isbnTemp = isbn;
-        for (int i = 9; i >= 0; --i)
+        String isbn = entrada.next().trim();
+        Pattern regex = Pattern.compile( "\\d{9}");
+        Matcher resRegEx = regex.matcher( isbn);
+        if (!resRegEx.matches())
         {
-            digito = (byte)(isbnTemp % 10);
-            isbnTemp /= 10;
-            sumaDeDigitos += digito * i;
+            System.out.println( "Error: Tienes que introducir 9 dígitos.");
+            return;
         }
         
-        digito = (byte)(sumaDeDigitos % 11);
+        int isbnTemp = Integer.parseInt( resRegEx.group());
+        System.out.println( isbnTemp);
+        short sumaDeDigitos = 0;
+        for (int i = 9; i > 0; --i, isbnTemp /= 10)
+            sumaDeDigitos += (isbnTemp % 10) * i;
+        
+        byte digito = (byte)(sumaDeDigitos % 11);
 
-        System.out.printf( "Código ISBN-10: %09d%s\n", isbn, 
-                           (digito == 10 ? "X" : digito));
+        System.out.println( "Código ISBN-10:" + isbn + 
+                            (digito == 10 ? "X" : digito));
     }
 }
 
