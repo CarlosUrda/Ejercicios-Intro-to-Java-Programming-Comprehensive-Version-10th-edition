@@ -1,6 +1,6 @@
 
 /**
- * Obtener la velocidad media de un corredor.
+ * Ejercicio 13 del Capítulo 01.
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0

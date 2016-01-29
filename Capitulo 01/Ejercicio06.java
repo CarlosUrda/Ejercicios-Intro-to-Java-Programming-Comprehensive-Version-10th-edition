@@ -1,6 +1,6 @@
 
 /**
- * Escribir un programa que muestre el resultado de un sumatorio
+ * Ejercicio 06 del Capítulo 01.
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0

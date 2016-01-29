@@ -1,6 +1,6 @@
 
 /**
- * Obtener una aproximación del número PI
+ * Ejercicio 07 del Capítulo 01.
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0
