@@ -1,6 +1,6 @@
 
 /**
- * Escribir un programa que muestre una tabla con los cuadrados y los cubos de unos números
+ * Ejercicio 04 del Capítulo 01.
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0
