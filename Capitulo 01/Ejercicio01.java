@@ -1,6 +1,6 @@
 
 /**
- * Escribir un programa que muestre tres mensajes.
+ * Ejercicio 01 del Capítulo 01.
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0

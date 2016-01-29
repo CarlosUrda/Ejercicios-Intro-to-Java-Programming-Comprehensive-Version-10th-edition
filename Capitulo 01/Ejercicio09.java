@@ -1,7 +1,7 @@
 
 /**
- * Obtener el área y el perímetro de un rectángulo
- *
+ * Ejercicio 09 del Capítulo 01.
+ * 
  * @author Carlos A. Gómez Urda
  * @version 1.0
  */

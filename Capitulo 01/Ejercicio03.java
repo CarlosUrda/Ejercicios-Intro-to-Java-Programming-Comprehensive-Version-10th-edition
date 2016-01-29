@@ -1,6 +1,6 @@
 
 /**
- * Escribir un programa que muestre la palabra JAVA en formato especial
+ * Ejercicio 03 del Capítulo 01.
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0
