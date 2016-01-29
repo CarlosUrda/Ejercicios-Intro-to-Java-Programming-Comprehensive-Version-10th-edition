@@ -1,6 +1,6 @@
 
 /**
- * Obtener el área y el perímetro de un círculo.
+ * Ejercicio 08 del Capítulo 01.
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0

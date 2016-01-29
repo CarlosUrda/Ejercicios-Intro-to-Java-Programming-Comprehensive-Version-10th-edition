@@ -1,6 +1,6 @@
 
 /**
- * Proyecto de población
+ * Ejercicio 11 del Capítulo 01.
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0
@@ -19,7 +19,8 @@ public class Ejercicio11
 		System.out.println( "Año 0: " + poblacion);
 		for (int i = 0; i < annos; i++)
 		{
-			poblacion += (segundosPorAnno - muertesPorSeg + inmigrantesPorSeg) * nacimientosPorSeg;
+			poblacion += (segundosPorAnno - muertesPorSeg + inmigrantesPorSeg)*
+                         nacimientosPorSeg;
 			System.out.println( "Año " + (i+1) + ": " + poblacion);
 		}
 	}
