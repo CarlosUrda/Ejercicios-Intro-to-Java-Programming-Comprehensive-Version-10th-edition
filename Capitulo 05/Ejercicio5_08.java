@@ -34,7 +34,7 @@ public class Ejercicio5_08
 
         System.out.println( "Los datos del mejor alumno son: ");
         System.out.println( "Nombre: " + maxNombre);
-        System.out.println( "Nota: " + nota);
+        System.out.println( "Nota: " + maxNota);
     }
 }
 
