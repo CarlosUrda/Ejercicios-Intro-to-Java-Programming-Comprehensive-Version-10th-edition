@@ -1,12 +1,12 @@
 import java.util.*;
 
 /**
- * Ejercicio 10 del Capítulo 5:
+ * Ejercicio 11 del Capítulo 5:
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0
  */
-public class Ejercicio5_10
+public class Ejercicio5_11
 {
     public static void main( String[] args)
     {
@@ -22,7 +22,7 @@ public class Ejercicio5_10
         int porLinea = 0;
         for (int i = inferior; i <= superior; i++)
         {
-            if ((i%5 != 0) || (i%6 != 0)) continue;
+            if (!((i%5 == 0) ^ (i%6 == 0))) continue;
  
             System.out.print( i);
             System.out.print( (++porLinea%10 == 0) ? "\n" : " ");
