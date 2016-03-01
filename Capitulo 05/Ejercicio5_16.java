@@ -1,39 +1,44 @@
 import java.util.*;
 
 /**
- * Ejercicio 15 del Capítulo 5:
+ * Ejercicio 16 del Capítulo 5:
  *
  * @author Carlos A. Gómez Urda
  * @version 1.0
  */
-public class Ejercicio5_15
+public class Ejercicio5_16
 {
     public static void main( String[] args)
     {
         Locale.setDefault( Locale.ENGLISH);
         Scanner sc = new Scanner( System.in);//.useLocale( Locale.ENGLISH);
 
-        System.out.print( "Introduce el carácter inicial: ");
-        char inicio = sc.next().trim().charAt(0);
-
-        System.out.print( "Introduce el carácter final: ");
-        char fin = sc.next().trim().charAt(0);
-
-        if (inicio > fin)
+        int numero = -1;
+        while (true)
         {
-            char temp = fin;
-            fin = inicio;
-            inicio = temp;            
+            System.out.print( "Introduce el número a calcular sus factores: ");
+            numero = sc.nextInt();
+
+            if (numero > 0) break;
+
+            System.out.println( "ERROR: El número debe ser positivo.");
         }
 
-        int i = 1;
-        for (char c = inicio; c <= fin; ++c, ++i)
+        String factores = numero == 1 ? "1" : "";
+
+        int numeroTemp = numero;
+        while (numeroTemp > 1)
         {
-            System.out.print( c);
-            System.out.print( i%10 == 0 ? "\n": " ");
+            for (int i = 2; i <= numeroTemp; ++i)
+            {
+                if (numeroTemp % i != 0) continue;
+                numeroTemp /= i;
+                factores += " " + i;
+                break;
+            }
         }
 
-        System.out.println();
+        System.out.printf( "Los factores de %d son: %s\n", numero, factores);
     }
 }
 
